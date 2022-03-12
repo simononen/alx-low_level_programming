@@ -23,3 +23,6 @@
 
 ## 7. Smile in the mirror
 - A program that prints the lowercase alphabet in reverse, followed by a new line.
+
+## 8. Hexadecimal
+- A program that prints all the numbers of base 16 in lowercase, followed by a new line.
