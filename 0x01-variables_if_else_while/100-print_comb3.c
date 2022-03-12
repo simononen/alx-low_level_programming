@@ -14,7 +14,7 @@ int main(void)
 	{
 		while (j <= '9')
 		{
-			if (i != j && (i != '9' && j != '0'))
+			if (i != j && (i != '9' && j != '0') && !(i != '0' && j == '1'))
 			{
 				putchar(i);
 				putchar(j);
