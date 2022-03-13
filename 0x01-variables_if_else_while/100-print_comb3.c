@@ -14,20 +14,17 @@ int main(void)
 	{
 		while (j <= '9')
 		{
-			if (i != j && (i != '9' && j != '0') && !(i != '0' && j == '1'))
+			putchar(i);
+			putchar(j);
+			if (!(i == '8' && j == '9'))
 			{
-				putchar(i);
-				putchar(j);
-				if (!((i == '8') && (j == '9')))
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
 			}
 			j++;
 		}
-		j = '1';
 		i++;
+		j = i + 1;
 	}
 	putchar('\n');
 	return (0);
