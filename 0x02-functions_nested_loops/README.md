@@ -8,3 +8,6 @@
 
 ## 2. 10 x alphabet
 - A function that prints 10 times the alphabet, in lowercase, followed by a new line.
+
+## 4. isalpha
+- A function that checks for alphabetic character.
