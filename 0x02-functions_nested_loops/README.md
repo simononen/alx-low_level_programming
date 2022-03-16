@@ -9,6 +9,9 @@
 ## 2. 10 x alphabet
 - A function that prints 10 times the alphabet, in lowercase, followed by a new line.
 
+## 3. islower
+- A function that checks for lowercase character.
+
 ## 4. isalpha
 - A function that checks for alphabetic character.
 
@@ -26,3 +29,14 @@
 
 ## 9. Learn your times table
 - A function that prints the 9 times table, starting with 0.
+
+## 10. a + b
+- A function that adds two integers and returns the result.
+
+## 11. 98 Battery Street, the OG
+- A function that prints all natural numbers from ```n``` to ```98```, followed by a new line.
+
+## 12. The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will, balances itself
+- A function that prints the ```n``` times table, starting with 0.
+
+## 13. Nature made the natural numbers; All else is the work of women
