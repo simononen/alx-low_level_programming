@@ -1,3 +1,5 @@
+#ifndef _MAIN_H 
+#define _MAIN_H
 int _putchar(char c);
 
 void print_alphabet(void);
@@ -13,3 +15,6 @@ int print_sign(int n);
 int _abs(int);
 
 int print_last_digit(int);
+
+void jack_bauer(void);
+#endif
