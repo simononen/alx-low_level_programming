@@ -1,18 +1,12 @@
 #include "main.h"
-
 /**
  * print_times_table - prints the table n times starting from 0
  * @n : int parameter for the number of times to print
- *
  * Return: Nothing void
  */
-
 void print_times_table(int n)
 {
-
-	int p = 0;
-	int q;
-	int result;
+	int p = 0, q, result;
 
 	if (n < 0 || n > 15)
 		return;
