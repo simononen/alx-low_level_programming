@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * sum_of_multiples - Calculate the sum of multiples of 3 and 5
@@ -21,4 +20,15 @@ int sum_of_multiples(void)
 	}
 	printf("The sum of multiples of 3 or 5 is: %d\n", sum);
 	return (sum);
+}
+
+/**
+ * main - Entry point
+ *
+ * Return: Always (0) Success
+ */
+int main(void)
+{
+	sum_of_multiples();
+	return (0);
 }
