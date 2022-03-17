@@ -17,7 +17,7 @@ void print_to_98(int n)
 		k = n;
 		while (k < MAX_NUMBER)
 		{
-			printf("%d", k);
+			printf("%i", k);
 			k++;
 		}
 	}
@@ -26,7 +26,7 @@ void print_to_98(int n)
 		k = n;
 		while (k > MAX_NUMBER)
 		{
-			printf("%d", k);
+			printf("%i", k);
 			k--;
 		}
 	}
