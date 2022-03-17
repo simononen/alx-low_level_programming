@@ -10,7 +10,7 @@
 void print_to_98(int n)
 {
 	int k;
-	int MAX_NUMBER = 98
+	int MAX_NUMBER = 98;
 
 	if (n <= MAX_NUMBER)
 	{
