@@ -7,7 +7,7 @@
  */
 void print_fibonacci_98(void)
 {
-	unsigned int fibo_1, fibo_2, fibo_n;
+	unsigned long int fibo_1, fibo_2, fibo_n;
 	int j, MAX_NUMBER;
 
 	MAX_NUMBER = 98;
@@ -18,11 +18,11 @@ void print_fibonacci_98(void)
 	{
 		if (j == MAX_NUMBER)
 		{
-			printf("%u", fibo_2);
+			printf("%lu", fibo_2);
 		}
 		else
 		{
-			printf("%u, ", fibo_1);
+			printf("%lu, ", fibo_1);
 			fibo_n = fibo_1 + fibo_2;
 			fibo_1 = fibo_2;
 			fibo_2 = fibo_n;
