@@ -1,8 +1,7 @@
-include "main.h"
+#include "main.h"
 
 /**
- * _strlen - find the length of a string
- *
+ * _strlen - finds the length of a string
  * @str: pointer to the string
  *
  * Return: length of the string
@@ -17,11 +16,9 @@ return (i);
 }
 
 /**
- * create_file - create a file
- *
+ * create_file - creates a file.
  * @filename: name of the file to create
- *
- * @text_content: null terminated string to write to the file
+ * @text_content: NULL terminated string to write to the file
  *
  * Return: 1 on success, -1 on failure
  */
